@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "outDir": "dist",
+    "target": "es2016",
+    "module": "commonjs",
+    "checkJs": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "noErrorTruncation": true,
+    "sourceMap": true
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules", "api-def", "/**/*.spec.js", "dist", "coverage"]
+}
